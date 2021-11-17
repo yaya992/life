@@ -1,0 +1,100 @@
+/*Les Chose Pour le Page*/
+body{
+    font-family: verdana;
+
+}*{
+    margin: 0;
+    padding: 0;
+}
+header,footer{
+position: absolute;
+background-color: #FF7F18;
+width: 100%;
+color: white;
+}
+header{
+height: 10vh;
+}
+main h2.Indextext2{
+    position: absolute;
+    margin-top: 80px;
+    left: 4%;
+    cursor: default;
+}
+main h1.Indextext1{  
+    position: absolute;
+    margin-top: 106px;
+    left: 4%;
+    cursor: default;
+}
+header h2{
+    position: absolute;
+    margin-top: 20px;
+    left: 20%;
+}
+main h2.Jouertext1{
+    position: absolute;
+    margin-top: 100px;
+    left: 4%;
+}
+main h3.Jouertext2{
+    position: absolute;
+    margin-top: 146px;
+    left: 4%;
+}
+main h4.Jouertext3{
+    position: absolute;
+    margin-top: 233px;
+    left: 4%;
+}
+main h5.Jouertext4{
+    position: absolute;
+    margin-top: 265px;
+    left: 4%;
+}
+footer{
+ height: 7vh;
+ bottom: 0;
+}
+footer p{
+    position: absolute;
+    margin-top: 20px;
+    left: 4%;
+}
+/*menu de ?/
+
+
+/*menu de Navigation*/
+.nav{
+    position: absolute;
+    left: 30%;
+}
+.nav div.men a{
+    color: white;
+    text-decoration: none;
+    position: relative;
+    left: 15%;
+    top: 20px;
+
+}
+/*menu Navigation Animation*/
+.nav a.Discord:hover{
+    color: #7289da;
+    transition: 0.4s all;
+}
+.nav a.Classement:hover{
+    color: #52EA5E;
+ transition: 0.4s all;
+}
+.nav a.Jouer:hover{
+    color: #52EA5E;
+    transition: 0.4s all;
+}
+.nav a.Boutique:hover{
+    color: #52EA5E;
+    transition: 0.4s all;
+}
+.nav a.Acceuil:hover{
+color: #52EA5E;
+transition: 0.4s all;
+}
