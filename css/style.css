@@ -1,36 +1,37 @@
+
 /*Les Chose Pour le Page*/
 body{
-    font-family: verdana;
+    font-family:  arial;
 
 }*{
     margin: 0;
     padding: 0;
 }
 header,footer{
-position: absolute;
-background-color: #FF7F18;
-width: 100%;
-color: white;
+    height: auto;
+    position: absolute;
+    background-color: #47d8a8;
+    width: 100%;
+    color: white;
 }
 header{
-height: 10vh;
+    height: 10vh;
+    }
+header h2{
+    position: absolute;
+    margin-top: 20px;
+    left: 30%;
 }
 main h2.Indextext2{
     position: absolute;
     margin-top: 80px;
     left: 4%;
-    cursor: default;
 }
 main h1.Indextext1{  
     position: absolute;
     margin-top: 106px;
     left: 4%;
-    cursor: default;
-}
-header h2{
-    position: absolute;
-    margin-top: 20px;
-    left: 20%;
+
 }
 main h2.Jouertext1{
     position: absolute;
@@ -39,7 +40,7 @@ main h2.Jouertext1{
 }
 main h3.Jouertext2{
     position: absolute;
-    margin-top: 146px;
+    margin-top: 156px;
     left: 4%;
 }
 main h4.Jouertext3{
@@ -61,40 +62,56 @@ footer p{
     margin-top: 20px;
     left: 4%;
 }
-/*menu de ?/
-
-
-/*menu de Navigation*/
-.nav{
+/*menu*/
+main iframe.boutique{
     position: absolute;
-    left: 30%;
+    margin-top: 79px;
+    left: 10%;
 }
-.nav div.men a{
-    color: white;
-    text-decoration: none;
-    position: relative;
-    left: 15%;
-    top: 20px;
+/*Responsive*/
+@media screen and (max-width: 900px) {
+    header{
+        width: 90%;
+            }
+            header h2{
+                position: absolute;
+                margin-top: 20px;
+                left: 20%;
+                    }
+    main{
+width: 90%;
+    }
+    footer{
+            height: 11vh;
+    }
+    header{
+        height: 14vh;
+        }
+header,footer{
+    position: absolute;
+color: white;
+width: 100%;
+    }
+}
+/*menu de Navigation*/
+main iframe.DiscordMenu{
+    position: absolute;
+    margin-top: 90px;
+    left: 79%;
 
+}
+header div.menu{
+    position: absolute;
+    margin-top: 26px;
+    left: 40%;
+}
+header div.menu a{
+    text-decoration: none;
+    color: white;
+    height: auto;
+    width: 100%;
 }
 /*menu Navigation Animation*/
-.nav a.Discord:hover{
-    color: #7289da;
-    transition: 0.4s all;
-}
-.nav a.Classement:hover{
-    color: #52EA5E;
- transition: 0.4s all;
-}
-.nav a.Jouer:hover{
-    color: #52EA5E;
-    transition: 0.4s all;
-}
-.nav a.Boutique:hover{
-    color: #52EA5E;
-    transition: 0.4s all;
-}
-.nav a.Acceuil:hover{
-color: #52EA5E;
-transition: 0.4s all;
+header div.menu a:hover{
+    transition: 0.3s;
 }
